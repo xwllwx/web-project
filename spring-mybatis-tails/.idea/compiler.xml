@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-mybatis-tails" />
+        <module name="springboot-aop-quickstart" />
+        <module name="aliyun-oss-spring-boot-starter (1)" />
+        <module name="aliyun-oss-spring-boot-autoconfigure" />
+        <module name="mybatisplus_01_quickstart" />
+        <module name="springboot-web-config2" />
+        <module name="MybatisPlus_quickStart" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="aliyun-oss-spring-boot-starter" target="17" />
+      <module name="MyBatisPlus_quickStart" target="17" />
+      <module name="tlias-parent" target="17" />
+      <module name="tlias-web-management" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyBatisPlus_quickStart" options="-parameters" />
+      <module name="MybatisPlus_quickStart" options="-parameters" />
+      <module name="aliyun-oss-spring-boot-autoconfigure" options="-parameters" />
+      <module name="aliyun-oss-spring-boot-starter" options="-parameters" />
+      <module name="aliyun-oss-spring-boot-starter (1)" options="-parameters" />
+      <module name="mybatisplus_01_quickstart" options="-parameters" />
+      <module name="spring-mybatis-tails" options="-parameters" />
+      <module name="springboot-aop-quickstart" options="-parameters" />
+      <module name="springboot-web-config2" options="-parameters" />
+      <module name="tlias-web-management" options="-parameters" />
+    </option>
+  </component>
+</project>
